@@ -122,3 +122,4 @@ Sentiment classification on e-commerce reviews presents notable challenges:
 3. **Cost, Throughput & Serverless Cold Starts:**
    - Serverless environments (e.g., AWS Lambda, GCP Cloud Run) suffer high cold start overhead when loading heavy weights into memory.
    - Microservice architectures benefit from batching requests (`batch_size = 16-64`) on GPU or deploying lightweight distilled models on CPU nodes to minimize cloud infrastructure costs.
+

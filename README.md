@@ -149,3 +149,4 @@ python case_study_4_sentiment_analysis.py
    - Macro F1-Score (%)
    - Inference Latency per sample (ms)
    - Parameter Count (Thousands)
+
