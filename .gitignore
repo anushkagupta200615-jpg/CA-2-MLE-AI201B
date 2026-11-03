@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / Caches
+huggingface_cache/
+.cache/
+wandb/
+# Large datasets ignored, but keep small data fixtures
+*.parquet
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
